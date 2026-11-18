@@ -17,7 +17,7 @@
 <a href="delete-account.html">Account deletion</a></nav>
 <main>
 <h1>Privacy policy</h1>
-<p class="date">Effective date: 12 November 2026</p>
+<p class="date">Effective date: 18 November 2026</p>
 <p class="intro">IstanGame is a city-exploration app for discovering Istanbul, recording experiences and sharing travel tips.</p>
 <section>
 <h2>Operator and eligibility</h2>
@@ -29,11 +29,12 @@
 <p>Google and Supabase Auth process sign-in details such as your email and account identity. IstanGame stores your username, display name, country, language and profile settings. It stores experience logs, dates, optional notes, XP, badges, trips and community activity you submit.</p>
 <p>We use this information to run your account, show progress and community content, send optional notifications, answer requests and protect the service. We do not sell your personal information.</p>
 <p>Before publication, text submitted in Community threads, replies and community collection titles or descriptions is checked by OpenAI&#39;s moderation service to help prevent harmful content. The moderation request includes the submitted text, but does not attach your account ID or email address. Public text may itself contain personal information, so avoid including sensitive details.</p>
+<p>We also store meeting details, private text memories and a single host-managed recap photo. Private memory text and uploaded recap photos are checked by OpenAI’s moderation service before saving. Photos are resized and their embedded metadata is removed before moderation and storage; do not include sensitive information in text or images.</p>
 </section>
 <section>
 <h2>Location, maps and notifications</h2>
 <p>Location is optional. If you request it, the map uses a temporary foreground location to show your position. It is not sent to the IstanGame API, saved in your Passport or used to verify rewards. Map requests may reveal your IP address and displayed area to OpenFreeMap.</p>
-<p>If you enable notifications, IstanGame uses a device token and related technical details to send alerts through Expo and Apple or Google push services. You can turn off location and notification permissions in your device settings.</p>
+<p>If you enable notifications, IstanGame uses a device token and related technical details to send direct-message alerts through Expo and Apple or Google push services. You can turn off location and notification permissions in your device settings.</p>
 </section>
 <section>
 <h2>Optional usage statistics</h2>
@@ -44,11 +45,13 @@
 <h2>Visibility and sharing</h2>
 <p>Leaderboard and public Passport visibility are on by default. You can change both in Profile. When public Passport is on, other people can see your completed experience names and their latest visit dates, including historical entries, and public profile details such as your username and progress. Passport notes, visit times and trip details stay private.</p>
 <p>Community posts, comments and collections can be seen by other users; some community pages are readable without signing in. Reports, blocks and moderator notes are private. Blocking limits signed-in interaction but cannot prevent people from viewing or copying public content. When you share or export information, the destination you choose receives that copy.</p>
+<p>New meetings default to a public recap; existing meetings remain recap-private when this feature is introduced. The host can switch recap visibility in either direction later. A public recap shares only the host-managed photo and public meeting context with people who can view the meeting, including guests. The recap never publishes participant text memories or rosters. A private photo is limited to the host and eligible participants. Previously issued photo links may remain usable until their short expiry, up to 60 seconds.</p>
 </section>
 <section>
 <h2>Storage, deletion and your choices</h2>
 <p>We keep account information while the account is active. We do not automatically delete inactive accounts. Use Profile → Account settings → Delete account, or email noleyoapp@gmail.com. Deletion removes private account information and removes the link between your account and community posts. Post and comment text remains and may still identify you. You can delete individual contributions or ask us to review identifying text. Some limited safety and deletion records may remain.</p>
 <p>You can change visibility and device permissions, and request access, correction or deletion by contacting noleyoapp@gmail.com. Questions: noleyoapp@gmail.com. You can contact us with questions or requests about your information.</p>
+<p>Replacing or removing a recap photo schedules the old object for deletion; failed cleanup is retried. Earlier private journal photos are retained privately and are never automatically promoted to public recap photos. Their authors can explicitly remove them. Account deletion removes the account’s private meeting content and schedules hosted recap photos for cleanup.</p>
 </section>
 </main>
 <footer>Privacy, moderation and account requests: <a href="mailto:noleyoapp%40gmail.com">noleyoapp@gmail.com</a></footer>
